@@ -1,0 +1,7 @@
+{
+  "name": "angular-signal-store",
+  "version": "0.1.0",
+  "description": "NgRx signalStore conventions for Angular projects that use @ngrx/signals.",
+  "author": { "name": "cpdevtools" },
+  "dependencies": ["angular"]
+}

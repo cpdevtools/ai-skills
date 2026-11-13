@@ -1,0 +1,7 @@
+{
+  "name": "angular-material",
+  "version": "0.1.0",
+  "description": "Angular Material conventions for projects that use @angular/material.",
+  "author": { "name": "cpdevtools" },
+  "dependencies": ["angular"]
+}

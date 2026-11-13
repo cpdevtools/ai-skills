@@ -1,0 +1,6 @@
+{
+  "name": "typescript",
+  "version": "0.1.0",
+  "description": "Conventions for TypeScript workspaces.",
+  "author": { "name": "cpdevtools" }
+}

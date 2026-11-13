@@ -1,0 +1,6 @@
+{
+  "name": "cpdevtools-gitflow",
+  "version": "0.1.0",
+  "description": "Commits, branches, versions and releases with the cpdevtools git-flow template.",
+  "author": { "name": "cpdevtools" }
+}

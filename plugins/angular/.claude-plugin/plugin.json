@@ -1,0 +1,7 @@
+{
+  "name": "angular",
+  "version": "0.1.0",
+  "description": "Angular conventions layered on Angular's defaults.",
+  "author": { "name": "cpdevtools" },
+  "dependencies": ["typescript"]
+}

@@ -1,0 +1,50 @@
+{
+  "name": "cpdevtools",
+  "description": "Layered skills for TypeScript, Angular and backend work: universal conventions plus per-project library plugins.",
+  "owner": { "name": "cpdevtools" },
+  "metadata": { "pluginRoot": "./plugins" },
+  "plugins": [
+    {
+      "name": "typescript",
+      "source": "typescript",
+      "description": "Conventions for TypeScript workspaces: .ts configs, one language per workspace, folders by feature, root verb.noun scripts, formatter-clean generators, required behaviour built in.",
+      "category": "language",
+      "defaultEnabled": true
+    },
+    {
+      "name": "angular",
+      "source": "angular",
+      "description": "Angular conventions layered on Angular's defaults: separate component files, smart/presentational components, component-tree DI, no data- attributes.",
+      "category": "framework",
+      "defaultEnabled": false
+    },
+    {
+      "name": "angular-signal-store",
+      "source": "angular-signal-store",
+      "description": "NgRx signalStore conventions: global vs component stores, store features, layered stores. Enable in projects that use @ngrx/signals.",
+      "category": "library",
+      "defaultEnabled": false
+    },
+    {
+      "name": "angular-material",
+      "source": "angular-material",
+      "description": "Angular Material conventions: a custom look is a Material theme; Material components and --mat-sys-* tokens first. Enable in projects that use @angular/material.",
+      "category": "library",
+      "defaultEnabled": false
+    },
+    {
+      "name": "domain-packages",
+      "source": "domain-packages",
+      "description": "Domain packages with layers (provide, feature, ui, data, model, testing) and simple libraries, enforced by Sheriff. Enable in workspaces built that way.",
+      "category": "architecture",
+      "defaultEnabled": false
+    },
+    {
+      "name": "cpdevtools-gitflow",
+      "source": "cpdevtools-gitflow",
+      "description": "Commits, branches, versions and releases in workspaces built on the cpdevtools git-flow template.",
+      "category": "workflow",
+      "defaultEnabled": false
+    }
+  ]
+}

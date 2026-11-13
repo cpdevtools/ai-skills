@@ -1,0 +1,7 @@
+{
+  "name": "domain-packages",
+  "version": "0.1.0",
+  "description": "Domain packages with layers and simple libraries, enforced by Sheriff.",
+  "author": { "name": "cpdevtools" },
+  "dependencies": ["typescript"]
+}
