@@ -34,6 +34,10 @@ The repo has `.publish/versions.yml`.
 ## Rules
 
 - **Commit only when asked.** Use the attribution line the session gives.
+- **Commit as the repo's git identity.** Use what `git config user.name` / `user.email` give;
+  never set the author from the session's account details (`-c user.email=…`, `--author`):
+  GitHub links a commit to whichever account has that email verified, which may be another
+  account of the user's. If `user.email` is unset, ask which identity to use before committing.
 - **Pushing is the user's.** A push starts CI and release PRs: never push without an explicit go
   for that push. If something appears on a remote unexpectedly, ask; the user likely pushed it.
 - **Branch with `--no-track`:** `git switch -c <name> --no-track origin/main`. A branch started
